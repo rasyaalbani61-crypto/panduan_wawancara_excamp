@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#2a8fc7">
+  <title>Alur Wawancara Panitia Excamp 2027</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Lilita+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="start" id="start">
+    <div class="start-box">
+      <p class="start-top">Panduan Wawancara Open Recruitment Panitia</p>
+      <h2>Excamp 2027</h2>
+      <button class="start-btn" id="startBtn" type="button">Mulai Menyelam 🐋</button>
+      <p class="start-note">🔊 Ketuk untuk memulai dengan musik</p>
+    </div>
+  </div>
+
+  <div class="ocean" id="ocean" aria-hidden="true"></div>
+  <div class="bubbles" id="bubbles" aria-hidden="true"></div>
+  <div class="depth" id="depth" aria-hidden="true">Kedalaman <b id="depthNum">0</b> m</div>
+
+  <header class="hero">
+    <p class="hero-top">Open Recruitment Panitia Expo Campus SMANSKA 2027</p>
+    <div class="sign">
+      <h1>Alur Wawancara<br>Panitia Excamp 2027</h1>
+    </div>
+    <p class="hero-sub">Scroll ke bawah dan selami tiap tahapnya satu per satu.</p>
+    <div class="scroll-hint" aria-hidden="true">⌄</div>
+    <svg class="wave" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,60 C240,110 480,10 720,60 C960,110 1200,10 1440,60 L1440,120 L0,120 Z"></path>
+    </svg>
+  </header>
+
+  <main>
+    <ol class="path" id="path">
+      <li class="diver" id="diver" aria-hidden="true">🐋</li>
+
+      <li class="step">
+        <span class="node">1</span>
+        <article class="card">
+          <h2>Daftar & isi formulir</h2>
+          <p>Pastikan kamu alumni SMANSKA 25 & 26, lalu isi formulir pendaftaran dan pilih divisi yang diminati.</p>
+          <span class="tag">30 Oktober - 07 November
+          <br>Extend sd 10 november
+          </span>
+        </article>
+      </li>
+
+      <li class="step">
+        <span class="node">2</span>
+        <article class="card">
+          <h2>Masuk grub Open Recruitment</h2>
+          <p>Koor wakoor mengecek data dan kelengkapan pendaftaran. Yang sudah lengkap akan dihubungi lewat kontak yang diisi.</p>
+          <span class="tag">30 Oktober - 07 November
+            <br>Extend sd 10 november
+          </span>
+        </article>
+      </li>
+
+      <li class="step">
+        <span class="node">3</span>
+        <article class="card">
+          <h2>Jadwal wawancara</h2>
+          <p>Nanti Koor wakoor akan mendata pendaftar dan koor wakoor memilih jadwal Wawancara sesuai dengan waktu longgar koor wakoor.</p>
+          <span class="tag">10 November - 17 November
+            <br>
+          </span>
+        </article>
+      </li>
+
+      <li class="step">
+        <span class="node">4</span>
+        <article class="card">
+          <h2>Datang & check-in</h2>
+          <p>Hadir 10 menit lebih awal, lapor ke panitia penerima, lalu tunggu giliranmu dipanggil.</p>
+        </article>
+      </li>
+
+      <li class="step">
+        <span class="node">5</span>
+        <article class="card">
+          <h2>Wawancara umum</h2>
+          <p>Perkenalan singkat, alasanmu ingin jadi panitia, dan komitmenmu untuk persiapan sampai hari acara.</p>
+        </article>
+      </li>
+
+      <li class="step">
+        <span class="node">6</span>
+        <article class="card">
+          <h2>Wawancara divisi</h2>
+          <p>Ceritakan passion dan pengalamanmu untuk divisi yang kamu pilih.</p>
+          <ul class="chips">
+            <li>Sie Acara</li><li>Sie Perkap</li><li>Sie Pdd</li><li>Sie Konsumsi</li>
+            <li>Sie Sponsorship</li><li>Sie Kesekretariatan</li><li>Sie Humas</li>
+          </ul>
+        </article>
+      </li>
+
+      <li class="step">
+        <span class="node">7</span>
+        <article class="card">
+          <h2>Pengumuman</h2>
+          <p>Hasil seleksi diumumkan lewat kontak dan akun Instagram resmi. Selamat bergabung di kapal Excamp!</p>
+        </article>
+      </li>
+    </ol>
+  </main>
+
+  <footer class="foot">
+    <p>Info lebih lanjut</p>
+    <div class="handles">
+      <a href="https://www.instagram.com/expocampussmanska" target="_blank" rel="noopener">@expocampussmanska</a>
+      <a href="https://www.instagram.com/officialsmanska" target="_blank" rel="noopener">@officialsmanska</a>
+    </div>
+  </footer>
+
+  <audio id="bgm" src="lagu.mp3" loop preload="auto"></audio>
+  <button class="music-btn" id="musicBtn" type="button" aria-label="Putar / jeda lagu" aria-pressed="false" title="Lagu">
+    <svg class="ic-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+    <svg class="ic-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
